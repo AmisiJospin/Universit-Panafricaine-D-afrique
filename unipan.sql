@@ -363,6 +363,12 @@ ALTER TABLE `staffmembers`
 ALTER TABLE `typepayement`
   MODIFY `id_frais` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
+--
+-- SELECT ELEMENTS in the table
+--
+
+SELECT name, age, gender FROM staffmembers WHERE idName = 20;
+--
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
